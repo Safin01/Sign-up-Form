@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: column ;
+
+}
+
+.introduction{
+    padding-top: 4rem;
+    padding-right: 10rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: #f0eeee;
+    margin: 0;
+    
+}
+
+.introduction > p{
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 5px 3px rgb(109, 109, 109);
+}
+
+fieldset > p{
+    font-size: 1.3rem;
+    
+}
+
+
+
+form > div{
+    display: flex;
+    flex-direction: row;
+    
+}
+form > div > div{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    
+}
+.submit{
+    padding: 1.5rem;
+}
+
+#submit-button{
+    background-color:#596D48 ;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.submit #login{
+    color: #596D48;
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus{
+    border-color: #000;
+}
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: rgb(194, 8, 8);
+}
+
+.submit > input{
+    color: white;
+    font-weight: bold;
+}
+

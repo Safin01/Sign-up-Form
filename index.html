@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./assets/leftBackground.jpg" alt="sign-up image" height="700rem">
+            
+        </div>
+        <div class="right">
+            <div class="introduction">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your
+                    deepest dreams. Sign up <i>now</i> to get started.
+                </p>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+            <fieldset>
+                <!-- <legend>User Details</legend> -->
+                <p>Let's do this!</p>
+                <form action="#" id="my-form">
+                    <div>
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" placeholder="Thor" required>
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" placeholder="Odinson" required>                                
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="userEmail">EMAIL</label>
+                            <input type="email" id="userEmail" required>
+                        </div>
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="number" id="phoneNumber" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="userPass">PASSWORD</label>
+                            <input type="password" id="userPass" required>
+                        </div>
+                        <div>
+                            <label for="passConfirmation">CONFIRM PASSWORD</label>
+                            <input type="password" id="passConfirmation" required>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" id="submit-button" value="Create Account" form="my-form">
+                <p>Already have an account?<a href="./index.html" target="_self" id="login" >Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
